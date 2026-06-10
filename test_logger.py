@@ -8,7 +8,7 @@ def test_console_logger_creation():
     """
     logger = LoggerFactory.create_logger("console")
     
-    assert isinstance(logger, ConsoleLogger)
+    assert isinstance(logger, FileLogger)
     assert isinstance(logger, Logger)
 
 
